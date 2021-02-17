@@ -1,4 +1,4 @@
-package com.DamianT.EatHealthy.Dao.Entity;
+package com.DamianT.EatHealthy.Recipe;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

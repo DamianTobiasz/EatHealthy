@@ -1,7 +1,5 @@
-package com.DamianT.EatHealthy.Controllers;
+package com.DamianT.EatHealthy.Recipe;
 
-import com.DamianT.EatHealthy.Dao.Entity.Recipe;
-import com.DamianT.EatHealthy.Service.RecipeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
