@@ -2,8 +2,6 @@ package com.DamianT.EatHealthy.Recipe;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -35,11 +33,5 @@ public class RecipeService {
 
     public void deleteById(Long id) {
         this.repository.deleteById(id);
-    }
-
-    @EventListener(ApplicationReadyEvent.class)
-    public void fillDB(){
-        this.repository.save(new Recipe("bl", "bl","bl"));
-        this.repository.save(new Recipe("pp", "pp","pp"));
     }
 }
