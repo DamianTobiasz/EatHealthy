@@ -1,8 +1,6 @@
 package com.DamianT.EatHealthy.Recipe;
 
 
-import com.DamianT.EatHealthy.Recipe.Recipe;
-import com.DamianT.EatHealthy.Recipe.RecipeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
